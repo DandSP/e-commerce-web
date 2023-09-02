@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../Header/StorefrontHeader'
+import Footer from '../Footer/StorefrontFooter'
 
 interface MainComponentProps {
   children: React.ReactNode;
@@ -12,6 +13,7 @@ const MainComponent: React.FC<MainComponentProps> = ({ children }) => {
       <div className="container flex-fill">
         { children }
       </div>
+      <Footer/>
     </div>
   )
 }

@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Logo: React.FC = () => {
   return (
     <Link href="/">
-      <Image src="/assets/logo.png" alt="Logo X Side Games" width={220} height={40} />
+      <Image src="/assets/logo.png" alt="Logo X Side Games" width={300} height={50} />
     </Link>
   )
 }
